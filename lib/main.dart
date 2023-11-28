@@ -3,7 +3,6 @@ import 'package:webtoonapp/screen/home_screen.dart';
 import 'package:webtoonapp/services/api_service.dart';
 
 void main() {
-  ApiService().getTodaysToons();
   runApp(const App());
 }
 
